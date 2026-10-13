@@ -1,3 +1,16 @@
+### hey, I'm cxmza
+
+Full-stack engineer. I build products end to end — interface, motion, API, real-time infra, deploy — and I care
+how they **feel**, not just whether they work.
+
+- **Real-time, for real.** Go WebSocket relays, SSE fan-out, server-skew-corrected clocks. Sub-second from source to screen.
+- **Interfaces with motion.** React 19, GSAP, Motion, View Transitions, WebGL — every animation respects `prefers-reduced-motion`.
+- **Shipped, not demoed.** Typed contracts across a monorepo, ~1k tests, Dockerized services running in production.
+
+`TypeScript` `React` `Go` `Node` `Vite` `Tailwind` `GSAP` `Motion` `Three.js` `Solana` `Docker`
+
+---
+
 <a href="https://www.windle.fun">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero.webp">
@@ -6,11 +19,10 @@
   </picture>
 </a>
 
-**windle** is a Solana protocol for public promises. A team states a condition a program can check, locks collateral
-behind it, and a YES/NO market prices the odds. At the deadline the program reads the chain: ship, and the collateral
-comes back; slash, and it goes to NO holders.
+### Building: windle — ship or slash
 
-Pre-launch. Markets and prices on the site are illustrative data; no real funds are involved.
+A Solana protocol for public promises. A team states a condition a program can check, locks collateral behind it,
+and a YES/NO market prices the odds. Ship — the collateral comes back. Slash — it goes to NO holders.
 
 <p>
 <a href="https://www.windle.fun"><img src="assets/btn-site.svg" alt="Site" height="44"></a>
@@ -19,16 +31,6 @@ Pre-launch. Markets and prices on the site are illustrative data; no real funds 
 <a href="https://api.windle.fun"><img src="assets/btn-api.svg" alt="API" height="44"></a>
 <a href="https://github.com/cxmza/windle"><img src="assets/btn-source.svg" alt="Source" height="44"></a>
 </p>
-
-### Mechanism
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/mechanism-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/mechanism-light.svg">
-  <img alt="Promise, collateral, market, verdict. Ship returns the collateral; slash pays it to NO holders." src="assets/mechanism-dark.svg" width="100%">
-</picture>
-
-### Product
 
 <table>
 <tr>
@@ -43,8 +45,7 @@ Pre-launch. Markets and prices on the site are illustrative data; no real funds 
 </tr>
 </table>
 
-### Now building
+**What's inside:** live X feed with sub-second relay · LMSR-priced promise markets · rich tweet rendering
+(media, video, polls, quotes) · Sign-In With Solana · OpenAPI 3.1 account API.
 
-- Sign-In With Solana — live
-- Promise and market programs — in design
-- Docs and API reference — live
+Pre-launch — prices on the site are illustrative, no real funds involved.
